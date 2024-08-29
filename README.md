@@ -5,7 +5,7 @@
    Python web scrapper to scrape data about the current day's meals from <a href =https://dineoncampus.com/marist>Marist Dining Hall</a> and send the data to subscribers' phones daily. 
    <br />
    <br />
-   I am building this because I want to be conscious of what's being served so that I can strategize my daily meals in accordance.
+   I am building this because I live far from the dining hall and I want to know at all times if there's anything good to eat.
    <br />
    <br />
    Plus I am too lazy to check the website myself 
