@@ -12,4 +12,19 @@ class Scraper:
         # log as json
         json_data = json.loads(curl_request.stdout)
 
+        for location in json_data['locations']:
+            print(location['name'])
+            if location['name'] == "Murray Dining Hall":
+                for period in location['periods']:
+                    print(period['name'])
+                    if period['name'] == "Dinner":
+                        for station in period['stations']:
+                            print(station['name'])
+                            for item in station['items']:
+                                print(item['name'])
+
+        pretty_json = json.dumps(json_data, indent=4, sort_keys=True)
+
+        #print(pretty_json)
+
         #todays food note is chicken tinga
