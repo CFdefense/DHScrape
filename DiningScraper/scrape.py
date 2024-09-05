@@ -23,8 +23,6 @@ class Scraper:
                             for item in station['items']:
                                 print(item['name'])
 
-        pretty_json = json.dumps(json_data, indent=4, sort_keys=True)
-
-        #print(pretty_json)
-
-        #todays food note is chicken tinga
+        #log all food in 3d arr of classes period -> station -> foods
+        # try https://medium.com/testingonprod/how-to-send-text-messages-with-python-for-free-a7c92816e1a4
+        # api link confirmed to stay updated 
