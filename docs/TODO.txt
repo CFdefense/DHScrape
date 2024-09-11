@@ -1,0 +1,7 @@
+!!TODO!!
+
+Format Scraped Data Properly For Viewing
+
+Establish a Method For Notification Delivery
+
+Database / AI Integration
