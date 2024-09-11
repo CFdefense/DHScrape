@@ -17,7 +17,6 @@ def sendNotification(scraped_data: list[Meal], user_info: dict[str,str]) -> bool
     with smtplib.SMTP_SSL("smtp.gmail.com", 465) as smtp_server:
         smtp_server.login(email_user, email_key)
 
-        # send message
-
-        smtp_server.sendmail(email_auth[0],recipiant,"hello")
+        # send message -> TODO iterate built dict param and build recipiant
+        smtp_server.sendmail(email_user,recipiant,"hello")
     return True
