@@ -11,11 +11,16 @@ def getMenu(link: str) -> list[Meal]:
     command = ['curl', 'https://api.dineoncampus.com/v1/sites/todays_menu?site_id=64b18f3bc625af0685e3c5eb'] # os cmd to run
     my_meals: list[Meal] = [] # to hold our meal objs
 
-    # Execute curl command to pull api data
-    curl_request = subprocess.run(command, capture_output=True, text=True)
+    try:
+        # Execute curl command to pull api data
+        curl_request = subprocess.run(command, capture_output=True, text=True)
 
-    # log as json
-    json_data = json.loads(curl_request.stdout)
+        # log as json
+        json_data = json.loads(curl_request.stdout)
+
+    except Exception:
+        # return empty list as flag for error
+        return my_meals
 
     # parse json, create objs and append accordingly
     for location in json_data['locations']:
