@@ -1,5 +1,6 @@
 from tools.scrape import getMenu
 from data_objs.meal import Meal
+from tools.notify import sendNotification
 
 '''
     Verbose Outputting Function
@@ -21,9 +22,15 @@ def main():
         exit
     else:
         verbose("API SCRAPE SUCCESSFUL")
-    
-    # try https://medium.com/testingonprod/how-to-send-text-messages-with-python-for-free-a7c92816e1a4
 
+    # Send Notification
+    verbose("SENDING NOTIFICATIONS")
+    result: bool = sendNotification(scraped_meals)
+
+    if result == True:
+        verbose("NOTIFICATION SUCCESSFULLY SENT")
+    else:
+        verbose("NOTIFICATION FAILED")
 
 if __name__ == "__main__":
     main()

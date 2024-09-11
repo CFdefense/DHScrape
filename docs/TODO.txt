@@ -2,6 +2,8 @@
 
 Format Scraped Data Properly For Viewing
 
-Establish a Method For Notification Delivery
+Time Regulation
+
+Parse json of user info and carriers match and send using for and try except
 
 Database / AI Integration
