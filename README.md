@@ -10,5 +10,12 @@
    <br />
    Plus I am too lazy to check the website myself 
  </p>
- 
+ <br />
+ <h4 align="center">To Be Integrated</h4>
+ <p align="center">
+  Database integration to store information about user preferences and choices.
+  <br />
+  <br />
+  AI integration to recommend days in which a user would want based on the built database profile.
+ </p>
  <br />
