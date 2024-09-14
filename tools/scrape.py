@@ -33,4 +33,5 @@ def getMenu(link: str) -> list[Meal]:
                     for item in station['items']:
                         current_station.my_items.append(item)
                 my_meals.append(current_meal)
+                
     return my_meals
