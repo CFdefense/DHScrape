@@ -1,9 +1,11 @@
 !!TODO!!
 
-Format Scraped Data Properly For Viewing
+1. Responding to the texts sends email so read using imap -> Help with Profile Building and then AI Integration
 
-Time Regulation
+ALSO save daily menu in some sort of file and user responses to said menu ( To be our Database -> maybe use some other database here)
 
-Parse json of user info and carriers match and send using for and try except
+2. Format Scraped Data Properly For Viewing ( Potientially format this data into some sort of image or something?? )
 
-Database / AI Integration
+3. Time Regulation
+
+4. AI Integration
