@@ -1,11 +1,32 @@
 !!TODO!!
 
-1. Responding to the texts sends email so read using imap -> Help with Profile Building and then AI Integration
+NOTIFCATION SENDING ** COMPLETE **
 
-ALSO save daily menu in some sort of file and user responses to said menu ( To be our Database -> maybe use some other database here)
+SMTP -> Format users numbers and carriers and send messages through SMTP server
 
-2. Format Scraped Data Properly For Viewing ( Potientially format this data into some sort of image or something?? )
+DATA FORMATTING
 
-3. Time Regulation
+Pandas/Image -> Format menu and AI recommendation in SMTP supported format for easy read by users
 
-4. AI Integration
+TIME CHECKS and AUTO START
+
+OS Time Checks -> Ensure enough time has passed where a new menu is available either through OS calls to time or by comparing API call results
+
+DATA COLLECTION
+
+    IMAP -> Allows for reading of Emails Which is where our users responses will go
+            -> Read Responses and associated Address and make that response to the address in our database
+
+    DATABASE -> Store users and their responses
+                -> Can use Json for now as usercount is low but migrating to a more advanced database will be need in future
+
+AI PREDICTION
+
+    -> We will use Regression/Random Forest/Forest to understand and predict user menu enjoyment
+
+    REGRESSION AND RANDOM FOREST
+    -> Break this down into user -> time of visit -> food ate -> reason
+        -> Categorize foods and log prequency of attendance for that item along with the reason for going
+            -> Predict based on factors such as previous attendance #s for foods
+    FOREST
+    -> Use forest on data set to recommend unique foods which are not normally offered by the dining hall

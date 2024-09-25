@@ -3,6 +3,7 @@ import sys
 import smtplib
 from dotenv import load_dotenv
 import os
+import time
 
 '''
     Function for notifying saved users
@@ -19,7 +20,7 @@ def send_notification(scraped_data: list[Meal], user_info: dict[str,str]) -> boo
             smtp_server.login(email_user, email_key)
 
             for name, address in user_info.items():
-                smtp_server.sendmail(email_user, address, (f"Hello {name}"))
+                smtp_server.sendmail(email_user, address, (f"Hello my friend {name}"))
         return True
     
     except Exception:
