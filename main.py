@@ -36,6 +36,7 @@ def main():
         verbose("FOUND USER DATA")
 
     # Send Notification
+    '''
     verbose("SENDING NOTIFICATIONS")
     result: bool = send_notification(scraped_meals, user_data)
 
@@ -44,6 +45,6 @@ def main():
         verbose("NOTIFICATION(S) SUCCESSFULLY SENT")
     else:
         verbose("NOTIFICATION(S) FAILED TO SEND")
-
+    '''
 if __name__ == "__main__":
     main()

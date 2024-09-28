@@ -4,8 +4,8 @@ import os
     Function to parse json of user info and return user smtp addresses
 '''
 def parse_user_info() -> dict[str, str]:
-    carrier_path: str = "user_data/carrier_ext.json"
-    user_info_path: str = "user_data/user_info.json"
+    carrier_path: str = "json/user_data/carrier_ext.json"
+    user_info_path: str = "json/user_data/user_info.json"
     user_addresses: dict[str, str] = {}
 
     # get saved user data

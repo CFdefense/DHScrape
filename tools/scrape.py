@@ -1,5 +1,6 @@
 import subprocess
 import json
+from datetime import datetime
 from data_objs.meal import Meal
 from data_objs.station import Station
 from data_objs.item import Item
@@ -22,6 +23,9 @@ def getMenu(link: str) -> list[Meal]:
         # return empty list as flag for error
         return my_meals
 
+    # Get the current date for the filename
+    current_date = datetime.now().strftime('%Y-%m-%d')
+
     # parse json, create objs and append accordingly
     for location in json_data['locations']:
         if location['name'] == "Murray Dining Hall":
@@ -33,5 +37,38 @@ def getMenu(link: str) -> list[Meal]:
                     for item in station['items']:
                         current_station.my_items.append(item)
                 my_meals.append(current_meal)
+
+
+                # create appropriate json object for each meal
+                meal_document = {
+                    "date": current_date,
+                    "location": {
+                        "id": location["id"],
+                        "name": location["name"],
+                        "type": location["type"],
+                        "period": period["name"],
+                        "stations": [
+                            {
+                                "id": station["id"],
+                                "name": station["name"],
+                                "items": station["items"]
+                            } for station in period['stations']
+                        ]
+                    }
+                }
+
+                # store in its respective json
+                file_name = f'json/menu/{period["name"]}.json'
+                with open(file_name, 'w') as meal_file:
+                    # Load existing data
+                    existing_data = json.load(meal_file)
+                    # Append new meal document to bottom of existing data
+                    existing_data.append(meal_document)
+                    # Move the file pointer to the beginning of the file
+                    meal_file.seek(0)
+                    # Save updated data back to the file
+                    json.dump(existing_data, meal_file, indent=4)
+
+                print(f"Updated {file_name} Contents")
                 
     return my_meals
