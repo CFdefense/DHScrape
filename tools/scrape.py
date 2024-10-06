@@ -6,7 +6,7 @@ from data_objs.station import Station
 from data_objs.item import Item
 
 '''
-    Method to Create Scrape And Populate Available Foods
+    Method to Create Scrape And Populate Available Foods Storing Them In Their Respecitve JSON
 '''
 def getMenu() -> list[Meal]:
     command = ['curl', 'https://api.dineoncampus.com/v1/sites/todays_menu?site_id=64b18f3bc625af0685e3c5eb'] # os cmd to run

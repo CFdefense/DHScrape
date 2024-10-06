@@ -13,16 +13,24 @@ def verbose(msg: str):
     Scraper Main Function
 '''
 def main():
+    # Get Previous Responses (IMAP)
+
+
+
+    # Update Profiles and AI
+
+
+
     # Scrape Data
     verbose("SCRAPING API DATA")
     scraped_meals: list[Meal] = getMenu()
 
     # Check Scraped Data Validity
     if len(scraped_meals) == 0:
-        verbose("API SCRAPE FAILED")
+        verbose("ERROR: API SCRAPE FAILED")
         exit
     else:
-        verbose("API SCRAPE SUCCESSFUL")
+        verbose("API SCRAPE - SUCCESSFUL")
 
     # Get Saved User Info
     verbose("GETTING USER DATA")
@@ -30,10 +38,20 @@ def main():
 
     # Check User Info Validity
     if not user_data:
-        verbose("NO SAVED USER DATA")
+        verbose("ERROR: NO SAVED USER DATA")
         exit
     else:
-        verbose("FOUND USER DATA")
+        verbose("USER DATA - VALIDATED")
+
+
+
+    # Format Notification
+
+
+
+    # AI Analysis
+
+
 
     # Send Notification
     '''

@@ -4,13 +4,19 @@ NOTIFCATION SENDING ** COMPLETE **
 
 SMTP -> Format users numbers and carriers and send messages through SMTP server
 
+
+
 DATA FORMATTING
 
 Pandas/Image -> Format menu and AI recommendation in SMTP supported format for easy read by users
 
+
+
 TIME CHECKS and AUTO START
 
 OS Time Checks -> Ensure enough time has passed where a new menu is available either through OS calls to time or by comparing API call results
+
+
 
 DATA COLLECTION
 
@@ -19,6 +25,8 @@ DATA COLLECTION
 
     DATABASE -> Store users and their responses
                 -> Can use Json for now as usercount is low but migrating to a more advanced database will be need in future
+
+
 
 AI PREDICTION
 
