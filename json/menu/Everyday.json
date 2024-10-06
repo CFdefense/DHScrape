@@ -1,123 +1,125 @@
-{
-    "date": "2024-09-28",
-    "location": {
-        "id": "64f0a5aac625af0af427f822",
-        "name": "Murray Dining Hall",
-        "type": "DOC::WebtritionLocation",
-        "period": "Everyday",
-        "stations": [
-            {
-                "id": "667e16bde45d4305dff7ca03",
-                "name": "Milk & Condiments",
-                "items": [
-                    {
-                        "name": "English Muffin",
-                        "calories": 150,
-                        "portion": "1 each"
-                    },
-                    {
-                        "name": "Ketchup",
-                        "calories": 3750,
-                        "portion": "102 floz"
-                    },
-                    {
-                        "name": "White Bread",
-                        "calories": 150,
-                        "portion": "2 slice"
-                    },
-                    {
-                        "name": "Yellow Mustard",
-                        "calories": 35,
-                        "portion": "2 floz"
-                    },
-                    {
-                        "name": "Whole Wheat Bread",
-                        "calories": 150,
-                        "portion": "2 slice"
-                    },
-                    {
-                        "name": "Spicy Brown Mustard",
-                        "calories": 35,
-                        "portion": "2 floz"
-                    },
-                    {
-                        "name": "Plain Bagel",
-                        "calories": 180,
-                        "portion": "1 each"
-                    },
-                    {
-                        "name": "Honey Mustard Dressing",
-                        "calories": 300,
-                        "portion": "2 floz"
-                    },
-                    {
-                        "name": "Multi Grain Flatbread",
-                        "calories": 180,
-                        "portion": "1 each"
-                    },
-                    {
-                        "name": "Barbecue Sauce",
-                        "calories": 100,
-                        "portion": "2 floz"
-                    }
-                ]
-            },
-            {
-                "id": "667e16bde45d4305dff7ca04",
-                "name": "Beverage",
-                "items": [
-                    {
-                        "name": "Half and Half",
-                        "calories": 80,
-                        "portion": "2 floz"
-                    },
-                    {
-                        "name": "Whole Milk",
-                        "calories": 150,
-                        "portion": "8 floz"
-                    },
-                    {
-                        "name": "2% Milk",
-                        "calories": 120,
-                        "portion": "8 floz"
-                    },
-                    {
-                        "name": "Skim Milk",
-                        "calories": 80,
-                        "portion": "8 floz"
-                    },
-                    {
-                        "name": "Oat Milk",
-                        "calories": 60,
-                        "portion": "4 floz"
-                    },
-                    {
-                        "name": "Unsweetened Almond Milk",
-                        "calories": 0,
-                        "portion": "1 floz"
-                    },
-                    {
-                        "name": "Soy Milk",
-                        "calories": 50,
-                        "portion": "4 floz"
-                    },
-                    {
-                        "name": "Coffee",
-                        "calories": 0,
-                        "portion": "6 floz"
-                    },
-                    {
-                        "name": "Decaf Coffee",
-                        "calories": 0,
-                        "portion": "6 floz"
-                    },
-                    {
-                        "name": "Unsweetened Iced Tea",
-                        "calories": 0,
-                        "portion": "6 floz"
-                    }
-                ]
-            }
-        ]
+[
+    {
+        "date": "2024-10-06",
+        "location": {
+            "id": "64f0a5aac625af0af427f822",
+            "name": "Murray Dining Hall",
+            "type": "DOC::WebtritionLocation",
+            "period": "Everyday",
+            "stations": [
+                {
+                    "id": "667e16bde45d4305dff7ca03",
+                    "name": "Milk & Condiments",
+                    "items": [
+                        {
+                            "name": "English Muffin",
+                            "calories": 150,
+                            "portion": "1 each"
+                        },
+                        {
+                            "name": "Ketchup",
+                            "calories": 3750,
+                            "portion": "102 floz"
+                        },
+                        {
+                            "name": "White Bread",
+                            "calories": 150,
+                            "portion": "2 slice"
+                        },
+                        {
+                            "name": "Yellow Mustard",
+                            "calories": 35,
+                            "portion": "2 floz"
+                        },
+                        {
+                            "name": "Whole Wheat Bread",
+                            "calories": 150,
+                            "portion": "2 slice"
+                        },
+                        {
+                            "name": "Spicy Brown Mustard",
+                            "calories": 35,
+                            "portion": "2 floz"
+                        },
+                        {
+                            "name": "Plain Bagel",
+                            "calories": 180,
+                            "portion": "1 each"
+                        },
+                        {
+                            "name": "Honey Mustard Dressing",
+                            "calories": 300,
+                            "portion": "2 floz"
+                        },
+                        {
+                            "name": "Multi Grain Flatbread",
+                            "calories": 180,
+                            "portion": "1 each"
+                        },
+                        {
+                            "name": "Barbecue Sauce",
+                            "calories": 100,
+                            "portion": "2 floz"
+                        }
+                    ]
+                },
+                {
+                    "id": "667e16bde45d4305dff7ca04",
+                    "name": "Beverage",
+                    "items": [
+                        {
+                            "name": "Half and Half",
+                            "calories": 80,
+                            "portion": "2 floz"
+                        },
+                        {
+                            "name": "Whole Milk",
+                            "calories": 150,
+                            "portion": "8 floz"
+                        },
+                        {
+                            "name": "2% Milk",
+                            "calories": 120,
+                            "portion": "8 floz"
+                        },
+                        {
+                            "name": "Skim Milk",
+                            "calories": 80,
+                            "portion": "8 floz"
+                        },
+                        {
+                            "name": "Oat Milk",
+                            "calories": 60,
+                            "portion": "4 floz"
+                        },
+                        {
+                            "name": "Unsweetened Almond Milk",
+                            "calories": 0,
+                            "portion": "1 floz"
+                        },
+                        {
+                            "name": "Soy Milk",
+                            "calories": 50,
+                            "portion": "4 floz"
+                        },
+                        {
+                            "name": "Coffee",
+                            "calories": 0,
+                            "portion": "6 floz"
+                        },
+                        {
+                            "name": "Decaf Coffee",
+                            "calories": 0,
+                            "portion": "6 floz"
+                        },
+                        {
+                            "name": "Unsweetened Iced Tea",
+                            "calories": 0,
+                            "portion": "6 floz"
+                        }
+                    ]
+                }
+            ]
+        }
     }
-}
+]

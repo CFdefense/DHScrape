@@ -1,0 +1,652 @@
+[
+    {
+        "date": "2024-10-06",
+        "location": {
+            "id": "64f0a5aac625af0af427f822",
+            "name": "Murray Dining Hall",
+            "type": "DOC::WebtritionLocation",
+            "period": "Breakfast",
+            "stations": [
+                {
+                    "id": "667e16bde45d4305dff7c9fd",
+                    "name": "Homestyle",
+                    "items": [
+                        {
+                            "name": "Scrambled Eggs",
+                            "calories": 200,
+                            "portion": "1/2 cup"
+                        },
+                        {
+                            "name": "French Toast Sticks",
+                            "calories": 230,
+                            "portion": "3 each"
+                        },
+                        {
+                            "name": "Pork Sausage Patty",
+                            "calories": 360,
+                            "portion": "2 each"
+                        },
+                        {
+                            "name": "Tater Tots",
+                            "calories": 140,
+                            "portion": "1/2 cup"
+                        }
+                    ]
+                },
+                {
+                    "id": "667e16bde45d4305dff7ca01",
+                    "name": "Omelets",
+                    "items": [
+                        {
+                            "name": "Omelet Bar",
+                            "calories": 0,
+                            "portion": "1 plate"
+                        },
+                        {
+                            "name": "Eggs",
+                            "calories": 130,
+                            "portion": "3 floz"
+                        },
+                        {
+                            "name": "Egg Whites",
+                            "calories": 45,
+                            "portion": "3 floz"
+                        },
+                        {
+                            "name": "Chopped Spinach",
+                            "calories": 5,
+                            "portion": "1 ounce"
+                        },
+                        {
+                            "name": "Chopped Tomatoes",
+                            "calories": 0,
+                            "portion": "1 tbsp"
+                        },
+                        {
+                            "name": " Diced Onions",
+                            "calories": 0,
+                            "portion": "1 tbsp"
+                        },
+                        {
+                            "name": "Sliced Mushrooms",
+                            "calories": 0,
+                            "portion": "1 tbsp"
+                        },
+                        {
+                            "name": "Chopped Green Bell Pepper",
+                            "calories": 0,
+                            "portion": "1 tbsp"
+                        },
+                        {
+                            "name": "Shredded Sharp Cheddar Cheese",
+                            "calories": 60,
+                            "portion": "1 tbsp"
+                        },
+                        {
+                            "name": "Pork Sausage Link",
+                            "calories": 130,
+                            "portion": "1 each"
+                        }
+                    ]
+                },
+                {
+                    "id": "667e16bde45d4305dff7c9ff",
+                    "name": "Plant Bar",
+                    "items": [
+                        {
+                            "name": "Latin Tofu Scramble",
+                            "calories": 150,
+                            "portion": "6 ounce"
+                        },
+                        {
+                            "name": "Meatless Vegetarian Sausage Patty",
+                            "calories": 70,
+                            "portion": "1 each"
+                        }
+                    ]
+                },
+                {
+                    "id": "667e16bde45d4305dff7ca00",
+                    "name": "Bakery",
+                    "items": [
+                        {
+                            "name": "Blueberry Loaf with Vanilla Glaze",
+                            "calories": 130,
+                            "portion": "1 slice"
+                        },
+                        {
+                            "name": "Lucky Charms Muffin",
+                            "calories": 320,
+                            "portion": "1 each"
+                        },
+                        {
+                            "name": "Cherry Danish",
+                            "calories": 270,
+                            "portion": "1 each"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "date": "2024-10-06",
+        "location": {
+            "id": "64f0a5aac625af0af427f822",
+            "name": "Murray Dining Hall",
+            "type": "DOC::WebtritionLocation",
+            "period": "Breakfast",
+            "stations": [
+                {
+                    "id": "667e16bde45d4305dff7c9fd",
+                    "name": "Homestyle",
+                    "items": [
+                        {
+                            "name": "Scrambled Eggs",
+                            "calories": 200,
+                            "portion": "1/2 cup"
+                        },
+                        {
+                            "name": "French Toast Sticks",
+                            "calories": 230,
+                            "portion": "3 each"
+                        },
+                        {
+                            "name": "Pork Sausage Patty",
+                            "calories": 360,
+                            "portion": "2 each"
+                        },
+                        {
+                            "name": "Tater Tots",
+                            "calories": 140,
+                            "portion": "1/2 cup"
+                        }
+                    ]
+                },
+                {
+                    "id": "667e16bde45d4305dff7ca01",
+                    "name": "Omelets",
+                    "items": [
+                        {
+                            "name": "Omelet Bar",
+                            "calories": 0,
+                            "portion": "1 plate"
+                        },
+                        {
+                            "name": "Eggs",
+                            "calories": 130,
+                            "portion": "3 floz"
+                        },
+                        {
+                            "name": "Egg Whites",
+                            "calories": 45,
+                            "portion": "3 floz"
+                        },
+                        {
+                            "name": "Chopped Spinach",
+                            "calories": 5,
+                            "portion": "1 ounce"
+                        },
+                        {
+                            "name": "Chopped Tomatoes",
+                            "calories": 0,
+                            "portion": "1 tbsp"
+                        },
+                        {
+                            "name": " Diced Onions",
+                            "calories": 0,
+                            "portion": "1 tbsp"
+                        },
+                        {
+                            "name": "Sliced Mushrooms",
+                            "calories": 0,
+                            "portion": "1 tbsp"
+                        },
+                        {
+                            "name": "Chopped Green Bell Pepper",
+                            "calories": 0,
+                            "portion": "1 tbsp"
+                        },
+                        {
+                            "name": "Shredded Sharp Cheddar Cheese",
+                            "calories": 60,
+                            "portion": "1 tbsp"
+                        },
+                        {
+                            "name": "Pork Sausage Link",
+                            "calories": 130,
+                            "portion": "1 each"
+                        }
+                    ]
+                },
+                {
+                    "id": "667e16bde45d4305dff7c9ff",
+                    "name": "Plant Bar",
+                    "items": [
+                        {
+                            "name": "Latin Tofu Scramble",
+                            "calories": 150,
+                            "portion": "6 ounce"
+                        },
+                        {
+                            "name": "Meatless Vegetarian Sausage Patty",
+                            "calories": 70,
+                            "portion": "1 each"
+                        }
+                    ]
+                },
+                {
+                    "id": "667e16bde45d4305dff7ca00",
+                    "name": "Bakery",
+                    "items": [
+                        {
+                            "name": "Blueberry Loaf with Vanilla Glaze",
+                            "calories": 130,
+                            "portion": "1 slice"
+                        },
+                        {
+                            "name": "Lucky Charms Muffin",
+                            "calories": 320,
+                            "portion": "1 each"
+                        },
+                        {
+                            "name": "Cherry Danish",
+                            "calories": 270,
+                            "portion": "1 each"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "date": "2024-10-06",
+        "location": {
+            "id": "64f0a5aac625af0af427f822",
+            "name": "Murray Dining Hall",
+            "type": "DOC::WebtritionLocation",
+            "period": "Breakfast",
+            "stations": [
+                {
+                    "id": "667e16bde45d4305dff7c9fd",
+                    "name": "Homestyle",
+                    "items": [
+                        {
+                            "name": "Scrambled Eggs",
+                            "calories": 200,
+                            "portion": "1/2 cup"
+                        },
+                        {
+                            "name": "French Toast Sticks",
+                            "calories": 230,
+                            "portion": "3 each"
+                        },
+                        {
+                            "name": "Pork Sausage Patty",
+                            "calories": 360,
+                            "portion": "2 each"
+                        },
+                        {
+                            "name": "Tater Tots",
+                            "calories": 140,
+                            "portion": "1/2 cup"
+                        }
+                    ]
+                },
+                {
+                    "id": "667e16bde45d4305dff7ca01",
+                    "name": "Omelets",
+                    "items": [
+                        {
+                            "name": "Omelet Bar",
+                            "calories": 0,
+                            "portion": "1 plate"
+                        },
+                        {
+                            "name": "Eggs",
+                            "calories": 130,
+                            "portion": "3 floz"
+                        },
+                        {
+                            "name": "Egg Whites",
+                            "calories": 45,
+                            "portion": "3 floz"
+                        },
+                        {
+                            "name": "Chopped Spinach",
+                            "calories": 5,
+                            "portion": "1 ounce"
+                        },
+                        {
+                            "name": "Chopped Tomatoes",
+                            "calories": 0,
+                            "portion": "1 tbsp"
+                        },
+                        {
+                            "name": " Diced Onions",
+                            "calories": 0,
+                            "portion": "1 tbsp"
+                        },
+                        {
+                            "name": "Sliced Mushrooms",
+                            "calories": 0,
+                            "portion": "1 tbsp"
+                        },
+                        {
+                            "name": "Chopped Green Bell Pepper",
+                            "calories": 0,
+                            "portion": "1 tbsp"
+                        },
+                        {
+                            "name": "Shredded Sharp Cheddar Cheese",
+                            "calories": 60,
+                            "portion": "1 tbsp"
+                        },
+                        {
+                            "name": "Pork Sausage Link",
+                            "calories": 130,
+                            "portion": "1 each"
+                        }
+                    ]
+                },
+                {
+                    "id": "667e16bde45d4305dff7c9ff",
+                    "name": "Plant Bar",
+                    "items": [
+                        {
+                            "name": "Latin Tofu Scramble",
+                            "calories": 150,
+                            "portion": "6 ounce"
+                        },
+                        {
+                            "name": "Meatless Vegetarian Sausage Patty",
+                            "calories": 70,
+                            "portion": "1 each"
+                        }
+                    ]
+                },
+                {
+                    "id": "667e16bde45d4305dff7ca00",
+                    "name": "Bakery",
+                    "items": [
+                        {
+                            "name": "Blueberry Loaf with Vanilla Glaze",
+                            "calories": 130,
+                            "portion": "1 slice"
+                        },
+                        {
+                            "name": "Lucky Charms Muffin",
+                            "calories": 320,
+                            "portion": "1 each"
+                        },
+                        {
+                            "name": "Cherry Danish",
+                            "calories": 270,
+                            "portion": "1 each"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "date": "2024-10-06",
+        "location": {
+            "id": "64f0a5aac625af0af427f822",
+            "name": "Murray Dining Hall",
+            "type": "DOC::WebtritionLocation",
+            "period": "Breakfast",
+            "stations": [
+                {
+                    "id": "667e16bde45d4305dff7c9fd",
+                    "name": "Homestyle",
+                    "items": [
+                        {
+                            "name": "Scrambled Eggs",
+                            "calories": 200,
+                            "portion": "1/2 cup"
+                        },
+                        {
+                            "name": "French Toast Sticks",
+                            "calories": 230,
+                            "portion": "3 each"
+                        },
+                        {
+                            "name": "Pork Sausage Patty",
+                            "calories": 360,
+                            "portion": "2 each"
+                        },
+                        {
+                            "name": "Tater Tots",
+                            "calories": 140,
+                            "portion": "1/2 cup"
+                        }
+                    ]
+                },
+                {
+                    "id": "667e16bde45d4305dff7ca01",
+                    "name": "Omelets",
+                    "items": [
+                        {
+                            "name": "Omelet Bar",
+                            "calories": 0,
+                            "portion": "1 plate"
+                        },
+                        {
+                            "name": "Eggs",
+                            "calories": 130,
+                            "portion": "3 floz"
+                        },
+                        {
+                            "name": "Egg Whites",
+                            "calories": 45,
+                            "portion": "3 floz"
+                        },
+                        {
+                            "name": "Chopped Spinach",
+                            "calories": 5,
+                            "portion": "1 ounce"
+                        },
+                        {
+                            "name": "Chopped Tomatoes",
+                            "calories": 0,
+                            "portion": "1 tbsp"
+                        },
+                        {
+                            "name": " Diced Onions",
+                            "calories": 0,
+                            "portion": "1 tbsp"
+                        },
+                        {
+                            "name": "Sliced Mushrooms",
+                            "calories": 0,
+                            "portion": "1 tbsp"
+                        },
+                        {
+                            "name": "Chopped Green Bell Pepper",
+                            "calories": 0,
+                            "portion": "1 tbsp"
+                        },
+                        {
+                            "name": "Shredded Sharp Cheddar Cheese",
+                            "calories": 60,
+                            "portion": "1 tbsp"
+                        },
+                        {
+                            "name": "Pork Sausage Link",
+                            "calories": 130,
+                            "portion": "1 each"
+                        }
+                    ]
+                },
+                {
+                    "id": "667e16bde45d4305dff7c9ff",
+                    "name": "Plant Bar",
+                    "items": [
+                        {
+                            "name": "Latin Tofu Scramble",
+                            "calories": 150,
+                            "portion": "6 ounce"
+                        },
+                        {
+                            "name": "Meatless Vegetarian Sausage Patty",
+                            "calories": 70,
+                            "portion": "1 each"
+                        }
+                    ]
+                },
+                {
+                    "id": "667e16bde45d4305dff7ca00",
+                    "name": "Bakery",
+                    "items": [
+                        {
+                            "name": "Blueberry Loaf with Vanilla Glaze",
+                            "calories": 130,
+                            "portion": "1 slice"
+                        },
+                        {
+                            "name": "Lucky Charms Muffin",
+                            "calories": 320,
+                            "portion": "1 each"
+                        },
+                        {
+                            "name": "Cherry Danish",
+                            "calories": 270,
+                            "portion": "1 each"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "date": "2024-10-06",
+        "location": {
+            "id": "64f0a5aac625af0af427f822",
+            "name": "Murray Dining Hall",
+            "type": "DOC::WebtritionLocation",
+            "period": "Breakfast",
+            "stations": [
+                {
+                    "id": "667e16bde45d4305dff7c9fd",
+                    "name": "Homestyle",
+                    "items": [
+                        {
+                            "name": "Scrambled Eggs",
+                            "calories": 200,
+                            "portion": "1/2 cup"
+                        },
+                        {
+                            "name": "French Toast Sticks",
+                            "calories": 230,
+                            "portion": "3 each"
+                        },
+                        {
+                            "name": "Pork Sausage Patty",
+                            "calories": 360,
+                            "portion": "2 each"
+                        },
+                        {
+                            "name": "Tater Tots",
+                            "calories": 140,
+                            "portion": "1/2 cup"
+                        }
+                    ]
+                },
+                {
+                    "id": "667e16bde45d4305dff7ca01",
+                    "name": "Omelets",
+                    "items": [
+                        {
+                            "name": "Omelet Bar",
+                            "calories": 0,
+                            "portion": "1 plate"
+                        },
+                        {
+                            "name": "Eggs",
+                            "calories": 130,
+                            "portion": "3 floz"
+                        },
+                        {
+                            "name": "Egg Whites",
+                            "calories": 45,
+                            "portion": "3 floz"
+                        },
+                        {
+                            "name": "Chopped Spinach",
+                            "calories": 5,
+                            "portion": "1 ounce"
+                        },
+                        {
+                            "name": "Chopped Tomatoes",
+                            "calories": 0,
+                            "portion": "1 tbsp"
+                        },
+                        {
+                            "name": " Diced Onions",
+                            "calories": 0,
+                            "portion": "1 tbsp"
+                        },
+                        {
+                            "name": "Sliced Mushrooms",
+                            "calories": 0,
+                            "portion": "1 tbsp"
+                        },
+                        {
+                            "name": "Chopped Green Bell Pepper",
+                            "calories": 0,
+                            "portion": "1 tbsp"
+                        },
+                        {
+                            "name": "Shredded Sharp Cheddar Cheese",
+                            "calories": 60,
+                            "portion": "1 tbsp"
+                        },
+                        {
+                            "name": "Pork Sausage Link",
+                            "calories": 130,
+                            "portion": "1 each"
+                        }
+                    ]
+                },
+                {
+                    "id": "667e16bde45d4305dff7c9ff",
+                    "name": "Plant Bar",
+                    "items": [
+                        {
+                            "name": "Latin Tofu Scramble",
+                            "calories": 150,
+                            "portion": "6 ounce"
+                        },
+                        {
+                            "name": "Meatless Vegetarian Sausage Patty",
+                            "calories": 70,
+                            "portion": "1 each"
+                        }
+                    ]
+                },
+                {
+                    "id": "667e16bde45d4305dff7ca00",
+                    "name": "Bakery",
+                    "items": [
+                        {
+                            "name": "Blueberry Loaf with Vanilla Glaze",
+                            "calories": 130,
+                            "portion": "1 slice"
+                        },
+                        {
+                            "name": "Lucky Charms Muffin",
+                            "calories": 320,
+                            "portion": "1 each"
+                        },
+                        {
+                            "name": "Cherry Danish",
+                            "calories": 270,
+                            "portion": "1 each"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+]

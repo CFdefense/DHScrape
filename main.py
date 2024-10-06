@@ -15,7 +15,7 @@ def verbose(msg: str):
 def main():
     # Scrape Data
     verbose("SCRAPING API DATA")
-    scraped_meals: list[Meal] = getMenu('https://dineoncampus.com/marist')
+    scraped_meals: list[Meal] = getMenu()
 
     # Check Scraped Data Validity
     if len(scraped_meals) == 0:

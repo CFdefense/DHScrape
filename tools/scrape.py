@@ -8,7 +8,7 @@ from data_objs.item import Item
 '''
     Method to Create Scrape And Populate Available Foods
 '''
-def getMenu(link: str) -> list[Meal]:
+def getMenu() -> list[Meal]:
     command = ['curl', 'https://api.dineoncampus.com/v1/sites/todays_menu?site_id=64b18f3bc625af0685e3c5eb'] # os cmd to run
     my_meals: list[Meal] = [] # to hold our meal objs
 
@@ -57,18 +57,40 @@ def getMenu(link: str) -> list[Meal]:
                     }
                 }
 
-                # store in its respective json
+                # Store in its respective JSON file
                 file_name = f'json/menu/{period["name"]}.json'
-                with open(file_name, 'w') as meal_file:
-                    # Load existing data
-                    existing_data = json.load(meal_file)
-                    # Append new meal document to bottom of existing data
-                    existing_data.append(meal_document)
-                    # Move the file pointer to the beginning of the file
-                    meal_file.seek(0)
-                    # Save updated data back to the file
-                    json.dump(existing_data, meal_file, indent=4)
 
-                print(f"Updated {file_name} Contents")
+                # Open the existing JSON file
+                try:
+                    with open(file_name, 'r+') as meal_file:
+                        # Load existing data
+                        existing_data = json.load(meal_file)
+
+                        # Check if the existing data is a list
+                        if isinstance(existing_data, list):
+                            existing_data.append(meal_document)  # Use append() to add the new meal document
+                        else:
+                            raise ValueError("Existing data is not in a list format.")
+
+                        # Move the file pointer to the beginning of the file
+                        meal_file.seek(0)
+                        # Save updated data back to the file
+                        json.dump(existing_data, meal_file, indent=4)
+                        meal_file.truncate()  # Ensure no leftover data is retained
+
+                except json.JSONDecodeError:
+                    print(f"Error decoding JSON from {file_name}. Initializing new data.")
+                    # Handle the case where JSON is invalid or empty
+                    with open(file_name, 'w') as meal_file:
+                        json.dump([meal_document], meal_file, indent=4)
+
+                except ValueError as ve:
+                    print(ve)
+                    print("Initializing new data as a list.")
+                    # If existing data is not a list, create a new list with the meal document
+                    with open(file_name, 'w') as meal_file:
+                        json.dump([meal_document], meal_file, indent=4)
+
+                print(f"Added new meal to {file_name}")
                 
     return my_meals

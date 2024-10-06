@@ -1,326 +1,328 @@
-{
-    "date": "2024-09-28",
-    "location": {
-        "id": "64f0a5aac625af0af427f822",
-        "name": "Murray Dining Hall",
-        "type": "DOC::WebtritionLocation",
-        "period": "Dinner",
-        "stations": [
-            {
-                "id": "667e16bde45d4305dff7ca12",
-                "name": "LIFE",
-                "items": [
-                    {
-                        "name": "Garlic Thyme Roasted Turkey Thigh",
-                        "calories": 190,
-                        "portion": "4-1/2 oz meat"
-                    },
-                    {
-                        "name": "Turkey Gravy",
-                        "calories": 70,
-                        "portion": "2 oz portion"
-                    },
-                    {
-                        "name": "Garlic & Herb Olive Oil Mashed Potatoes ",
-                        "calories": 150,
-                        "portion": "4 ounce"
-                    },
-                    {
-                        "name": "Roasted Brussels Sprouts",
-                        "calories": 45,
-                        "portion": "1/2 cup"
-                    },
-                    {
-                        "name": "Yukon Potato Salad",
-                        "calories": 140,
-                        "portion": "1/2 cup"
-                    }
-                ]
-            },
-            {
-                "id": "667e16bde45d4305dff7ca13",
-                "name": "Plant Bar",
-                "items": [
-                    {
-                        "name": "Beyond Meatloaf",
-                        "calories": 250,
-                        "portion": "3-1/2 oz meat"
-                    },
-                    {
-                        "name": "Olive Oil Mashed Potatoes",
-                        "calories": 130,
-                        "portion": "4 ounce"
-                    },
-                    {
-                        "name": "Steamed Green Beans ",
-                        "calories": 80,
-                        "portion": "1/2 cup"
-                    },
-                    {
-                        "name": "Vegan Gravy with Roasted Mushrooms",
-                        "calories": 120,
-                        "portion": "3 floz"
-                    }
-                ]
-            },
-            {
-                "id": "667e16bde45d4305dff7ca15",
-                "name": "Deli",
-                "items": [
-                    {
-                        "name": "Hoagie Roll",
-                        "calories": 200,
-                        "portion": "1 each"
-                    },
-                    {
-                        "name": "Kaiser Roll",
-                        "calories": 240,
-                        "portion": "1 each"
-                    },
-                    {
-                        "name": "White Bread",
-                        "calories": 80,
-                        "portion": "1 slice"
-                    },
-                    {
-                        "name": "Multigrain Bread",
-                        "calories": 280,
-                        "portion": "2 slice"
-                    },
-                    {
-                        "name": "Whole Wheat Bread",
-                        "calories": 140,
-                        "portion": "2 slice"
-                    },
-                    {
-                        "name": "10\" Flour Tortilla",
-                        "calories": 200,
-                        "portion": "1 each"
-                    },
-                    {
-                        "name": "Thinly Sliced Deli Turkey Breast",
-                        "calories": 60,
-                        "portion": "2 ounce"
-                    },
-                    {
-                        "name": "Thinly Sliced Smoked Ham",
-                        "calories": 110,
-                        "portion": "3 ounce"
-                    },
-                    {
-                        "name": "Sliced Genoa Salami",
-                        "calories": 120,
-                        "portion": "1 ounce"
-                    },
-                    {
-                        "name": "Sliced Pepperoni",
-                        "calories": 130,
-                        "portion": "1 ounce"
-                    }
-                ]
-            },
-            {
-                "id": "667e16bde45d4305dff7ca16",
-                "name": "Grill",
-                "items": [
-                    {
-                        "name": "Cali-Brid Turkey Sandwich",
-                        "calories": 800,
-                        "portion": "1 sandwich"
-                    },
-                    {
-                        "name": "Hamburger on Bun",
-                        "calories": 360,
-                        "portion": "1 sandwich"
-                    },
-                    {
-                        "name": "Beef Hot Dog",
-                        "calories": 280,
-                        "portion": "1 each"
-                    },
-                    {
-                        "name": "Potato Wedges",
-                        "calories": 90,
-                        "portion": "1/2 cup"
-                    }
-                ]
-            },
-            {
-                "id": "667e16bde45d4305dff7ca1c",
-                "name": "Grill Condiments",
-                "items": [
-                    {
-                        "name": "House Fried Potato Chips ",
-                        "calories": 380,
-                        "portion": "4 ounce"
-                    },
-                    {
-                        "name": "Lettuce Leaf",
-                        "calories": 0,
-                        "portion": "1 each"
-                    },
-                    {
-                        "name": "Sliced Tomatoes",
-                        "calories": 0,
-                        "portion": "2 slice"
-                    },
-                    {
-                        "name": "Dill Pickle Slices",
-                        "calories": 0,
-                        "portion": "4 each"
-                    },
-                    {
-                        "name": "Sliced Red Onion",
-                        "calories": 5,
-                        "portion": "1 slice"
-                    }
-                ]
-            },
-            {
-                "id": "667e16bde45d4305dff7ca17",
-                "name": "Pasta",
-                "items": [
-                    {
-                        "name": "Baked Ziti",
-                        "calories": 340,
-                        "portion": "1 serving(s)"
-                    },
-                    {
-                        "name": "Meatballs",
-                        "calories": 70,
-                        "portion": "1 oz portion"
-                    },
-                    {
-                        "name": "Garlic Roasted Broccoli and Cauliflower",
-                        "calories": 70,
-                        "portion": "3/4 cup"
-                    }
-                ]
-            },
-            {
-                "id": "667e16bde45d4305dff7ca18",
-                "name": "Pizza",
-                "items": [
-                    {
-                        "name": "Cheese Pizza",
-                        "calories": 190,
-                        "portion": "1 slice"
-                    },
-                    {
-                        "name": "Pepperoni Pizza",
-                        "calories": 210,
-                        "portion": "1 slice"
-                    },
-                    {
-                        "name": "Chipotle BBQ Chicken Pizza",
-                        "calories": 260,
-                        "portion": "1 slice"
-                    },
-                    {
-                        "name": "Dinner Roll",
-                        "calories": 150,
-                        "portion": "1 each"
-                    }
-                ]
-            },
-            {
-                "id": "667e16bde45d4305dff7ca19",
-                "name": "Salad",
-                "items": [
-                    {
-                        "name": "Romaine Blend",
-                        "calories": 10,
-                        "portion": "1 cup"
-                    },
-                    {
-                        "name": "Baby Spinach",
-                        "calories": 5,
-                        "portion": "1 cup"
-                    },
-                    {
-                        "name": "Baby Arugula",
-                        "calories": 0,
-                        "portion": "1 cup"
-                    },
-                    {
-                        "name": "Grilled Herbed Chicken",
-                        "calories": 70,
-                        "portion": "2 ounce"
-                    },
-                    {
-                        "name": "Chopped Hard Boiled Eggs",
-                        "calories": 50,
-                        "portion": "1/4 cup"
-                    },
-                    {
-                        "name": "Tuna Salad",
-                        "calories": 200,
-                        "portion": "3 oz portion"
-                    },
-                    {
-                        "name": "Herb Crusted Tofu  ",
-                        "calories": 35,
-                        "portion": "1 ounce"
-                    },
-                    {
-                        "name": "Cooked Quinoa",
-                        "calories": 60,
-                        "portion": "1/4 cup"
-                    },
-                    {
-                        "name": "Hummus",
-                        "calories": 150,
-                        "portion": "2 floz"
-                    },
-                    {
-                        "name": "Blanched Broccoli",
-                        "calories": 10,
-                        "portion": "1/4 cup"
-                    }
-                ]
-            },
-            {
-                "id": "667e16bde45d4305dff7ca1a",
-                "name": "Soup",
-                "items": [
-                    {
-                        "name": "Chicken Gumbo",
-                        "calories": 50,
-                        "portion": "4 floz"
-                    },
-                    {
-                        "name": "Cream of Zucchini Soup",
-                        "calories": 70,
-                        "portion": "1 ladle-4oz"
-                    }
-                ]
-            },
-            {
-                "id": "667e16bde45d4305dff7ca1b",
-                "name": "Bakery",
-                "items": [
-                    {
-                        "name": "Double Chocolate Chip Cookies",
-                        "calories": 120,
-                        "portion": "1 each"
-                    },
-                    {
-                        "name": "Oatmeal Strawberry Jam Bar",
-                        "calories": 220,
-                        "portion": "1 piece"
-                    },
-                    {
-                        "name": "Maple Bacon Donut",
-                        "calories": 350,
-                        "portion": "1 each"
-                    },
-                    {
-                        "name": "Apple Cobbler",
-                        "calories": 200,
-                        "portion": "3 ounce"
-                    }
-                ]
-            }
-        ]
+[
+    {
+        "date": "2024-10-06",
+        "location": {
+            "id": "64f0a5aac625af0af427f822",
+            "name": "Murray Dining Hall",
+            "type": "DOC::WebtritionLocation",
+            "period": "Dinner",
+            "stations": [
+                {
+                    "id": "667e16bde45d4305dff7ca12",
+                    "name": "LIFE",
+                    "items": [
+                        {
+                            "name": "Garlic Thyme Roasted Turkey Thigh",
+                            "calories": 190,
+                            "portion": "4-1/2 oz meat"
+                        },
+                        {
+                            "name": "Roasted Sweet Potatoes",
+                            "calories": 160,
+                            "portion": "4 oz portion"
+                        },
+                        {
+                            "name": "Steamed Green Beans ",
+                            "calories": 80,
+                            "portion": "1/2 cup"
+                        },
+                        {
+                            "name": "Turkey Gravy",
+                            "calories": 70,
+                            "portion": "2 oz portion"
+                        },
+                        {
+                            "name": "Marinated Beets with Dill",
+                            "calories": 140,
+                            "portion": "1/2 cup"
+                        }
+                    ]
+                },
+                {
+                    "id": "667e16bde45d4305dff7ca13",
+                    "name": "Plant Bar",
+                    "items": [
+                        {
+                            "name": "Plant Based Shepherds Pie",
+                            "calories": 210,
+                            "portion": "6 oz portion"
+                        },
+                        {
+                            "name": "Sauteed Kale",
+                            "calories": 90,
+                            "portion": "1/2 cup"
+                        }
+                    ]
+                },
+                {
+                    "id": "667e16bde45d4305dff7ca15",
+                    "name": "Deli",
+                    "items": [
+                        {
+                            "name": "Hoagie Roll",
+                            "calories": 200,
+                            "portion": "1 each"
+                        },
+                        {
+                            "name": "Kaiser Roll",
+                            "calories": 240,
+                            "portion": "1 each"
+                        },
+                        {
+                            "name": "White Bread",
+                            "calories": 80,
+                            "portion": "1 slice"
+                        },
+                        {
+                            "name": "Multigrain Bread",
+                            "calories": 280,
+                            "portion": "2 slice"
+                        },
+                        {
+                            "name": "Whole Wheat Bread",
+                            "calories": 140,
+                            "portion": "2 slice"
+                        },
+                        {
+                            "name": "10\" Flour Tortilla",
+                            "calories": 200,
+                            "portion": "1 each"
+                        },
+                        {
+                            "name": "Thinly Sliced Deli Turkey Breast",
+                            "calories": 60,
+                            "portion": "2 ounce"
+                        },
+                        {
+                            "name": "Thinly Sliced Smoked Ham",
+                            "calories": 110,
+                            "portion": "3 ounce"
+                        },
+                        {
+                            "name": "Sliced Genoa Salami",
+                            "calories": 120,
+                            "portion": "1 ounce"
+                        },
+                        {
+                            "name": "Sliced Pepperoni",
+                            "calories": 130,
+                            "portion": "1 ounce"
+                        }
+                    ]
+                },
+                {
+                    "id": "667e16bde45d4305dff7ca16",
+                    "name": "Grill",
+                    "items": [
+                        {
+                            "name": "Chipotle Turkey Melt Sub",
+                            "calories": 300,
+                            "portion": "1 sandwich"
+                        },
+                        {
+                            "name": "Hamburger on Bun",
+                            "calories": 360,
+                            "portion": "1 sandwich"
+                        },
+                        {
+                            "name": "Cheeseburger on Bun",
+                            "calories": 440,
+                            "portion": "1 sandwich"
+                        },
+                        {
+                            "name": "Beef Hot Dog",
+                            "calories": 280,
+                            "portion": "1 each"
+                        },
+                        {
+                            "name": "Sweet Potato Fries",
+                            "calories": 230,
+                            "portion": "1/2 cup"
+                        }
+                    ]
+                },
+                {
+                    "id": "667e16bde45d4305dff7ca1c",
+                    "name": "Grill Condiments",
+                    "items": [
+                        {
+                            "name": "House Fried Potato Chips ",
+                            "calories": 380,
+                            "portion": "4 ounce"
+                        },
+                        {
+                            "name": "Lettuce Leaf",
+                            "calories": 0,
+                            "portion": "1 each"
+                        },
+                        {
+                            "name": "Sliced Tomatoes",
+                            "calories": 0,
+                            "portion": "2 slice"
+                        },
+                        {
+                            "name": "Dill Pickle Slices",
+                            "calories": 0,
+                            "portion": "4 each"
+                        },
+                        {
+                            "name": "Sliced Red Onion",
+                            "calories": 5,
+                            "portion": "1 slice"
+                        }
+                    ]
+                },
+                {
+                    "id": "667e16bde45d4305dff7ca17",
+                    "name": "Pasta",
+                    "items": [
+                        {
+                            "name": "Fried Chicken",
+                            "calories": 490,
+                            "portion": "1 serving(s)"
+                        },
+                        {
+                            "name": "Spicy Collard Greens",
+                            "calories": 50,
+                            "portion": "1/2 cup"
+                        },
+                        {
+                            "name": "Baked Macaroni & Cheese",
+                            "calories": 270,
+                            "portion": "5 oz portion"
+                        },
+                        {
+                            "name": "Cinnamon Maple Biscuit",
+                            "calories": 110,
+                            "portion": "1 each"
+                        }
+                    ]
+                },
+                {
+                    "id": "667e16bde45d4305dff7ca18",
+                    "name": "Pizza",
+                    "items": [
+                        {
+                            "name": "Cheese Pizza",
+                            "calories": 190,
+                            "portion": "1 slice"
+                        },
+                        {
+                            "name": "Pepperoni Pizza",
+                            "calories": 210,
+                            "portion": "1 slice"
+                        },
+                        {
+                            "name": "Chipotle BBQ Pork Pizza",
+                            "calories": 430,
+                            "portion": "1 slice"
+                        },
+                        {
+                            "name": "Garlic Sticks",
+                            "calories": 170,
+                            "portion": "1 each"
+                        }
+                    ]
+                },
+                {
+                    "id": "667e16bde45d4305dff7ca19",
+                    "name": "Salad",
+                    "items": [
+                        {
+                            "name": "Romaine Blend",
+                            "calories": 10,
+                            "portion": "1 cup"
+                        },
+                        {
+                            "name": "Baby Spinach",
+                            "calories": 5,
+                            "portion": "1 cup"
+                        },
+                        {
+                            "name": "Baby Arugula",
+                            "calories": 0,
+                            "portion": "1 cup"
+                        },
+                        {
+                            "name": "Grilled Herbed Chicken",
+                            "calories": 70,
+                            "portion": "2 ounce"
+                        },
+                        {
+                            "name": "Chopped Hard Boiled Eggs",
+                            "calories": 50,
+                            "portion": "1/4 cup"
+                        },
+                        {
+                            "name": "Tuna Salad",
+                            "calories": 200,
+                            "portion": "3 oz portion"
+                        },
+                        {
+                            "name": "Herb Crusted Tofu  ",
+                            "calories": 35,
+                            "portion": "1 ounce"
+                        },
+                        {
+                            "name": "Cooked Quinoa",
+                            "calories": 60,
+                            "portion": "1/4 cup"
+                        },
+                        {
+                            "name": "Hummus",
+                            "calories": 150,
+                            "portion": "2 floz"
+                        },
+                        {
+                            "name": "Blanched Broccoli",
+                            "calories": 10,
+                            "portion": "1/4 cup"
+                        }
+                    ]
+                },
+                {
+                    "id": "667e16bde45d4305dff7ca1a",
+                    "name": "Soup",
+                    "items": [
+                        {
+                            "name": "Cauliflower Cheddar Soup",
+                            "calories": 250,
+                            "portion": "4 ounce"
+                        },
+                        {
+                            "name": "Black Bean Soup",
+                            "calories": 50,
+                            "portion": "4 floz"
+                        }
+                    ]
+                },
+                {
+                    "id": "667e16bde45d4305dff7ca1b",
+                    "name": "Bakery",
+                    "items": [
+                        {
+                            "name": "Carnival Cookies",
+                            "calories": 120,
+                            "portion": "1 each"
+                        },
+                        {
+                            "name": "Oreo Cookie Dip",
+                            "calories": 140,
+                            "portion": "3 ounce"
+                        },
+                        {
+                            "name": "Lucky Charms Treats",
+                            "calories": 90,
+                            "portion": "1 each"
+                        },
+                        {
+                            "name": "Lemon Cupcakes",
+                            "calories": 210,
+                            "portion": "1 each"
+                        }
+                    ]
+                }
+            ]
+        }
     }
-}
+]
